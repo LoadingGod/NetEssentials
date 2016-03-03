@@ -1,0 +1,14 @@
+﻿<Window x:Class="EigenMethodeSchrijven5._2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EigenMethodeSchrijven5._2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button x:Name="draw" Content="Draw" HorizontalAlignment="Left" Margin="56,73,0,0" VerticalAlignment="Top" Width="75"/>
+        <Canvas x:Name="canvas" HorizontalAlignment="Left" Height="261" Margin="153,50,0,0" VerticalAlignment="Top" Width="355"/>
+
+    </Grid>
+</Window>
